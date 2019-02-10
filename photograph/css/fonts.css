@@ -1,0 +1,11 @@
+
+@font-face{
+font-family: RobotoMono; /* Имя шрифта */
+src: url(fonts/RobotoMono-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face{
+font-family: RobotoMonoReg; /* Имя шрифта */
+src: url(fonts/RobotoMono-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+

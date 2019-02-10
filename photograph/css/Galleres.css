@@ -1,0 +1,121 @@
+content{
+	max-width: 100%;
+	display: block;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	width: 1200px;
+	height: 1250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.worksm{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+    top: 200px;
+    left: 60px; 
+	text-align: center;
+	color: #4D4D51;
+	font-size: 30px;
+}
+
+.workss ul,
+.workss li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.workss li{
+	display: inline-block;
+	width: 200px;
+	position: relative;
+    top: 250px;
+	left: 130px;
+}
+.workss img{
+	max-width: 100%;
+	display: block;
+	border: 1px #343437 solid;
+}
+
+
+
+
+
+
+
+footer{
+	max-width: 100%;
+	display: block;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	width: 1500px;
+	height: 200px;
+	background: #343437;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.next{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+    top: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+
+.iconss{
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.icons{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	position: relative;
+	top: 10px;
+
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.icons_item{
+	width: 30%;
+}
+
+.icons_item{
+	width: 20%;
+
+}
+
+
+.icons_item:hover{
+	
+}
+
+.logoexit{
+	display: block;
+	justify-content: center;
+	text-align: center;
+	font-family: 3px;
+	position: absolute;
+	left: 240px;
+	color: #959595;
+}
+
+

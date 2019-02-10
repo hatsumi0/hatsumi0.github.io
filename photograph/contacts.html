@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="shortcut icon" href="icons/icons.ico" type="image/x-icon">
+	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/Contacts.css">
+	<meta charset="utf-8">
+	<title>Z.K Photographer || Контакты</title>
+</head>
+<body>
+	<!--  -->
+	<header>
+		<div class="logo">
+			<img class="graphiclogo" src="images/logo.png" width="350" height="80">
+		</div>
+
+		<nav> 
+			<ul>
+				<li><a href="Home.html">Главная</a></li>
+				<li><a href="Galleres.html">Галерея</a></li>
+				<li><a href="Price.html">Прайс</a></li>
+				<li><a href="Blog.html">Блог</a></li>
+				<li><a href="Contacts.html" class="active">Контакты</a></li>
+			</ul>	
+		</nav> 
+
+		<div class="menus">
+			<img  class="graphicmenus" src="images/MENUS.jpg" width="1263" height="105">
+		</div>
+		
+	</header>
+	<!--  -->
+	<content>
+		<div id="map"></div>
+
+
+		<div class="phone">
+			<img src="icons/ctphone.png">
+			<ul>
+				<li class="ct">Телефон:</li>
+				<li class="ct1">+38(096)11111111</li>
+				<li class="ct1">+38(096)22222222</li>
+			</ul>
+		</div>
+		<div class="city">
+			<img src="icons/ctcity.png">
+			<ul>
+				<li class="ct">Адрес:</li>
+				<li class="ct1">г.Кривой Рог</li>
+				<li class="ct1">Улица 47</li>
+			</ul>
+		</div>
+		<div class="mail">
+			<img src="icons/ctmail.png">
+			<ul>
+				<li class="ct">Mail:</li>
+				<li class="ct1">rrrrrrrr@gmail.com</li>
+
+			</ul>
+		</div>
+
+		<form>
+
+		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="darknessshower@gmail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+
+		<input type="text" name="Name" placeholder="You name..." required><br>
+		<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+		<input type="text" name="Phone" placeholder="You phone..."><br>
+		<button>Send</button>
+
+	</form>
+
+
+
+
+	</content>
+
+
+
+	<footer>
+		<div class="footers">
+				<div class="next">
+					<h2>Ulyana Tsykanova</h2>
+				</div>
+				<div class="iconss">
+				<div class="icons">
+					<div class="icons_item">
+					<a href="#"><img src="icons/facebook.png" height="20px" width="20px"></a>
+					</div>
+
+				<div class="icons_item">
+					<a href="#"><img src="icons/instagram.png" height="20px" width="20px"></a>
+				</div>
+				<div class="icons_item">
+					<a href="#"><img src="icons/twitter.png" height="20px" width="20px"></a>
+				</div>
+				<div class="icons_item">
+					<a href="#"><img src="icons/vk.png" height="20px" width="20px"></a>
+			</div>
+			</div>
+		    </div>
+	        </div>
+
+	           <div class="logoexit">
+	           	<p>© 2018 Ulyana Tsukanova, Inc and Web Templates Ltd. All Rights Reserved. Privacy Policy. Designed by Faxhadi.com.</p>
+	           </div>
+		
+	</footer>
+	<!--  -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="scripts.js"></script>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 47.919285, lng: 33.2973537};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+} 
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGH9GvpsRNkkobbUCD5vZ-5WA5j8ETaxM&callback=initMap">
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+content{
+	max-width: 100%;
+	display: block;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	width: 1200px;
+	height: 1300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+footer{
+	max-width: 100%;
+	display: block;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	width: 1500px;
+	height: 200px;
+	background: #343437;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.next{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+    top: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+
+.iconss{
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.icons{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	position: relative;
+	top: 10px;
+
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.icons_item{
+	width: 30%;
+}
+
+.icons_item{
+	width: 20%;
+
+}
+
+
+.icons_item:hover{
+	
+}
+
+.logoexit{
+	display: block;
+	justify-content: center;
+	text-align: center;
+	font-family: 3px;
+	position: absolute;
+	left: 240px;
+	color: #959595;
+}
+
+
+#map{
+	position: relative;
+	top: 105px;
+	width: 105%;
+	height: 500px;
+}
+
+.phone{
+	position: relative;
+	top: 200px;
+	left: 50px;
+}
+
+.phone ul{
+	position: absolute;
+	left: 125px;
+	bottom: 5px;
+}
+
+.phone li{
+	font-family: RobotoMonoReg, monospace;
+	padding-top: 10px;
+}
+
+.ct{
+	color: #D1C8BC;
+	font-size: 20px;
+}
+
+.ct1{
+	font-size: 18px;
+}
+
+
+.city{
+	position: absolute;
+	top: 805px;
+	left: 500px;
+}
+
+.city ul{
+	width: 120px;
+	position: absolute;
+	left: 125px;
+	bottom: 5px;
+
+}
+
+.city li{
+	font-family: RobotoMonoReg, monospace;
+	padding-top: 10px;
+
+}
+
+.mail{
+	position: absolute;
+	top: 805px;
+	left: 900px;
+}
+
+.mail ul{
+	width: 120px;
+	position: absolute;
+	left: 125px;
+	bottom: 20px;
+
+}
+
+.mail li{
+	font-family: RobotoMonoReg, monospace;
+	padding-top: 5px;
+
+}
+
+
+
+form{
+	position: absolute;
+	top: 1000px;
+	left: 200px;
+}

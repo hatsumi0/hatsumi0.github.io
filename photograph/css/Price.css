@@ -1,0 +1,310 @@
+content{
+	max-width: 100%;
+	display: block;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	width: 1200px;
+	height: 1100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.worksm{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+    top: 250px;
+    left: 60px; 
+	text-align: center;
+	color: #4D4D51;
+	font-size: 30px;
+}
+
+.worksmm{
+	margin: 10px;
+	padding: 0;
+	display: block;
+	position: relative;
+	top: 320px;
+	left: 50px;
+	text-align: center;
+	color: #8D8D8D;
+	font-size: 15px;
+}
+
+.kvadr{
+	 width: 380px;
+     height: 300px;
+     background: #D1C8BC;
+     position: relative;
+     top: 420px;
+     left: 20px;
+}
+
+.kvadr1{
+	 width: 380px;
+     height: 300px;
+     background: #D1C8BC;
+     position: relative;
+     top: 121px;
+     left: 440px;
+}
+
+.kvadr2{
+	 width: 380px;
+     height: 300px;
+     background: #D1C8BC;
+     position: relative;
+     bottom: 179px;
+     left: 860px;
+}
+
+.ns{
+	font-family: RobotoMono, monospace;
+	padding-top: 40px;
+	text-align:center;
+	color: #fff;
+	font-size: 25px;
+}
+
+.nb{
+	font-family: RobotoMono, monospace;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+}
+
+.tm{
+	font-family: RobotoMono, monospace;
+	bottom: 20px;
+	position: relative;
+	text-align:  center;
+	color: #fff;
+}
+.st{
+	padding-top: 30px;
+	font-family: RobotoMono, monospace;
+	text-align: center;
+	color: #fff;
+}
+
+.lines{
+	position: relative;
+	bottom: 180px;
+	left: 20px;
+	margin: 0;
+	padding: 0;
+	width: 378px;
+	height: 200px;
+	border: 1px #D1C8BC solid;
+
+}
+
+.lines1{
+	position: relative;
+	bottom: 382px;
+	left: 440px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	width: 378px;
+	height: 200px;
+	border: 1px #D1C8BC solid;
+
+
+}
+
+.lines2{
+	position: relative;
+	bottom: 583px;
+	left: 860px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	width: 378px;
+	height: 200px;
+	border: 1px #D1C8BC solid;
+
+}
+
+.lines li{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.lines1 li{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.lines2 li{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.fas{
+		color: #D1C8BC;
+}
+
+.oval{
+	position: absolute;
+	top: 70px;
+	left: 65px;
+	width: 250px;
+	height: 200px;
+
+}
+
+
+.dws{
+	display: flex;
+	position: absolute;
+    left: 190px;
+	top: 165px;
+	-webkit-transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	-o-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+
+}
+
+.butt{
+	border: 3px solid #D1C8BC;
+	font-size: 20px;
+	color: #D1C8BC;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 150px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	font-family: RobotoMonoReg, monospace;
+	position: relative;
+	transition: .5s;
+	overflow: hidden;
+}
+
+.butt::before,
+.butt::after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #D1C8BC;
+	top: 0;
+	left: -100%;
+	opacity: .5;
+	transition: .3s;
+	z-index: -1;
+}
+
+.butt:after{
+	opacity: 1;
+	transition-delay: .2s;
+}
+.butt:hover{
+	color: #fff;
+}
+.butt:hover::before,
+.butt:hover::after{
+	left: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	max-width: 100%;
+	display: block;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	width: 1500px;
+	height: 200px;
+	background: #343437;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.next{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+    top: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+
+.iconss{
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.icons{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	position: relative;
+	top: 10px;
+
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.icons_item{
+	width: 30%;
+}
+
+.icons_item{
+	width: 20%;
+
+}
+
+
+.icons_item:hover{
+	
+}
+
+.logoexit{
+	display: block;
+	justify-content: center;
+	text-align: center;
+	font-family: 3px;
+	position: absolute;
+	left: 240px;
+	color: #959595;
+}
+
+
